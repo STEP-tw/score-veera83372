@@ -1,5 +1,4 @@
 let game=undefined;
-let food=undefined;
 let numberOfRows=60;
 let numberOfCols=120;
 let animator=undefined;
