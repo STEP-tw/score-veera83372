@@ -45,7 +45,7 @@ const createSnake=function() {
   body.push(tail.next());
   let head=tail.next().next();
 
-  snake=new Snake(head,body);
+  let snake=new Snake(head,body);
   game.addSnake(snake);
 }
 

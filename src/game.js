@@ -15,7 +15,7 @@ Game.prototype.addSnake=function(snake) {
 }
 
 Game.prototype.getSnake=function() {
-  return snake;
+  return this.snake;
 }
 
 Game.prototype.turnLeft=function() {
