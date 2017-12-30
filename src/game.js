@@ -28,7 +28,6 @@ Game.prototype.turnRight=function() {
 
 Game.prototype.grow=function() {
   let growthFactor=this.food.getGrowthFactor();
-  console.log(growthFactor);
   return this.snake.grow(growthFactor);
 }
 
