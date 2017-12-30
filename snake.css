@@ -28,3 +28,8 @@
 .game-status{
   text-align: center;
 }
+
+.super-food {
+  background-color: green;
+  border-radius: 50%;
+}
